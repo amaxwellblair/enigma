@@ -68,4 +68,10 @@ class EncryptorTest < Minitest::Test
     assert_equal "ozoynzoy", encrypt.encrypt
   end
 
+  # def test_encrypt_sentences
+  #   args = {:key => "12345", :date => 010116, :string => "aaaa aaa the end"}
+  #   @encrypt = Encryptor.new(args)
+  #   assert_equal "ozoynzoy", encrypt.encrypt
+  # end
+
 end
